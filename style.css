@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 body {
-    font-family: roboto, sans-serif;
+    font-family: roboto mono, sans-serif;
     margin: 0;
     width: 100%;
+    background-color: #EEEDE7;
 }
 
 #main {
@@ -16,9 +17,13 @@ body {
 h1 {
     grid-area: header;
     text-align: center;
-    border: 1px solid red;
     width: 100%;
+    /* background-color: #868b8e; */
+    color: black;
+    padding: 10px;
+    margin-bottom: 0;
 }
+
 
 #img-div {
     float: left;
@@ -27,6 +32,9 @@ h1 {
 
 img {
     width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1em;
 }
 
 #img-caption {
@@ -37,6 +45,22 @@ blockquote {
     font-style: italic;
 }
 
+a {
+    color: #383E42;
+}
+
+a:visited {
+    color: #8F8B86;
+}
+
+#header-border {
+    display: flex;
+    flex-direction: row;
+    height: 10px;
+    background: linear-gradient(to right,
+    #383E42 0%, #383E42 20%, #DBDBDB 20%, #DBDBDB 40%, #868B8E 40%, #868B8E 60%, #423B31 60%, #423B31 80%, #8F8B86 80%, #8F8B86 100%);
+    margin-bottom: 20px;
+}
 @media screen and (max-width: 425px) {
     #img-div {
         float: none;

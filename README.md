@@ -9,3 +9,6 @@ While I know a little bit of JavaScript, I decided to use only HTML and CSS as t
 I have some experience with HTML and CSS from years ago when I used to design custom MySpace themes for friends, and profiles for people on GaiaOnline (hi to anyone who used to frequent *Personalized Graphics* between 2007-2010!)
 
 I am making my way through **[The Odin Project](https://www.theodinproject.com/)** which is an amazing free resource for people starting on their web developer journey.
+
+### Resources Used
+The font is **[Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono)**

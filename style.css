@@ -9,7 +9,7 @@ body {
 #main {
     display: flex;
     width: 70%;
-    margin:auto;
+    margin: auto;
     flex-direction: column;
 }
 
@@ -20,21 +20,27 @@ h1 {
     width: 100%;
 }
 
-#content {
-    display: flex;
-    flex-direction: row;
+#img-div {
+    float: left;
+    width: 30%;
 }
 
 img {
     width: 100%;
 }
 
-#tribute-info {
-    flex-wrap: wrap;
+#img-caption {
+    text-align: center;
 }
 
-#img-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+blockquote {
+    font-style: italic;
+}
+
+@media screen and (max-width: 425px) {
+    #img-div {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
 }
